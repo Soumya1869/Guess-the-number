@@ -1,0 +1,27 @@
+package com.mini;
+import java.util.Scanner;
+
+public class mini {
+
+	public static void main(String[] args) {
+		// guess the number ;)
+		Scanner sc = new Scanner(System.in);
+		int myNum = (int)(Math.random()*100);
+		int userNum = 0;
+		do {
+			System.out.println("Guess my number(1-100): ");
+		    userNum = sc.nextInt();
+			if(userNum == myNum) {
+				System.out.println("great !! it's correct.");
+				break;
+			}else if(userNum>myNum) {
+				System.out.println("oops! You should try a smaller one!");
+				}else {
+				System.out.println("oops! Try a large number!");
+				}
+		} while(userNum>=0);
+		
+		     System.out.println("My number was : ");
+		     System.out.println(myNum);
+	}
+}
