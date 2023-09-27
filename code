@@ -8,6 +8,7 @@ public class mini {
 		Scanner sc = new Scanner(System.in);
 		int myNum = (int)(Math.random()*100);
 		int userNum = 0;
+		//using loops
 		do {
 			System.out.println("Guess my number(1-100): ");
 		    userNum = sc.nextInt();
