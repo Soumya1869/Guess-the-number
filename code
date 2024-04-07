@@ -15,12 +15,12 @@ public class mini {
 			if(userNum == myNum) {
 				System.out.println("great !! it's correct.");
 				break;
-			}else if(userNum>myNum) {
+			}else if(userNum > myNum) {
 				System.out.println("oops! You should try a smaller one!");
 				}else {
 				System.out.println("oops! Try a large number!");
 				}
-		} while(userNum>=0);
+		} while(userNum >= 0);
 		
 		     System.out.println("My number was : ");
 		     System.out.println(myNum);
