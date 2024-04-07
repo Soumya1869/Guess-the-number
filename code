@@ -23,6 +23,6 @@ public class mini {
 		} while(userNum >= 0);
 		
 		     System.out.println("My number was : ");
-		     System.out.println(myNum);
-	}
+		     System.out.println(myNum);      
+	}    
 }
